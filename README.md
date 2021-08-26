@@ -4,7 +4,7 @@
 
 This project uses machine learning to identify which cryptocurrencies are on the trading market and to better understand how cryptocurrencies can be grouped to create classifications for developing an investment portfolio. 
 
-Unsupervised machine learning algorithms are used as there is no known output. 
+Unsupervised machine learning algorithms are used as there is no known output. In unsupervised machine learning technique in which the users do not need to supervise the model. Instead, it allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with the unlabelled data.
 
 To group the cryptocurrencies, a clustering algorithm was chosen and the findings will be presented through data visualizations. 
 
