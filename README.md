@@ -8,7 +8,7 @@ Unsupervised machine learning algorithms are used as there is no known output. I
 
 To group the cryptocurrencies, a clustering algorithm was selected and the findings will be presented through data visualizations. 
 
-## Summary of Analysis
+## Analysis & Models
 
 **The technical analysis to produce the visualizations are as follows:**
 
@@ -78,17 +78,28 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
         <p align="center">
         <image src="https://user-images.githubusercontent.com/82583576/131062257-b8ecfe1c-2640-4ce0-817a-825d949e6242.png"
         </p>
- ##
- ##     
-        - A hvplot.table to visualize all the current tradable cryptocurrencies.
+ 
+   
+            
+            
+
+        
+        - The following is a snapshot of a hvplot.table to visualize all the current tradable cryptocurrencies.
             
         <p slign="center">
         <image src="https://user-images.githubusercontent.com/82583576/131061791-66cc9c72-8088-41d8-b621-b72084466d3c.png"
         </p>
               
                   
+            
         - A 2D scatter plot to visualize "Total Coins Mined" vs. "Total Coin Supply" by coin name and clusters.
             
         <p align="center">
         <image src="https://user-images.githubusercontent.com/82583576/131061989-b5bbbe56-45d1-4b50-8bd7-f68faf43bc97.png"
         </p>
+
+            
+## Summary 
+            
+   - A total of 532 cryptocurrencies have been classified into four different classes based on similarities of their features.
+   - Each class should be further analyzed to determine their returns and risks factors so that a proper portfolio can be presented to the invetment bank's clients.   
