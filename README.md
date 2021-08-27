@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project uses machine learning to identify which cryptocurrencies are on the trading market and to better understand how cryptocurrencies can be grouped to create classifications for developing an investment portfolio. 
+This project uses machine learning to identify which cryptocurrencies are on the trading market. This will also allow for a better understanding of how cryptocurrencies can be grouped to create classifications for developing an investment portfolio. 
 
-Unsupervised machine learning algorithms are used as there is no known output. In unsupervised machine learning technique in which the users do not need to supervise the model. Instead, it allows the model to work on its own to discover patterns and information that was previously undetected. 
+Unsupervised machine learning algorithms are used as there is no known output. It allows the model to work on its own to identify patterns and information that were previously undetected. 
 
 To group the cryptocurrencies, a clustering algorithm was selected and the findings will be presented through data visualizations. 
 
@@ -18,7 +18,7 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
     -  Data preprocessing refers to the technique of cleaning and organizing the raw data to make it suitable for building and training Machine Learning models. 
     -  It is a data mining technique that transforms raw data into an understandable and readable format. 
     
-    In this project, data cleaning such as removing null values and removing cryptocurrencies without coins mined was performed. In addition, the encoding method "get_dummies()"       was used to convert text features into binary format and StandardScaler() was used to standardize and transform the data.
+    In this project, data cleaning such as removing null values and cryptocurrencies without coins mined was performed. In addition, the encoding method "get_dummies()"       was used to convert text features into binary format and StandardScaler() was used to standardize and transform the data.
     
     The following is an extract of the original dataset that was converted to a DataFrame. It contained 1,252 rows and 6 columns of data.
     
@@ -27,7 +27,7 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
     </p>
 
     
-    Following the process of cleaning, dropping rows with null data, converting columns containing text to binary format, the DataFrame used for the model contained 532 rows and 98 columns.
+    Following the process of cleaning, dropping rows with null data and converting columns containing text to binary format, the DataFrame used for the model contained 532 rows and 98 columns.
     
     <p align="center">
     <image src= "https://user-images.githubusercontent.com/82583576/131057974-1d374e99-f46c-42bf-8ef4-5b178dd18421.png"
@@ -38,7 +38,7 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
 2.  ***Reducing data dimensions using Principal Components Analysis (PCA)***
         
     - Dimensionality reduction refers to techniques for reducing the number of input variables in training data.
-    - Fewer input dimensions often means correspondingly fewer parameters or a simpler structure in the machine learning model, referred to as degrees of freedom. A model with too many degrees of freedom is likely to overfit the training dataset and may not perform well on new data.
+    - Fewer input dimensions means correspondingly fewer parameters or a simpler structure in the machine learning model, referred to as degrees of freedom. A model with too many degrees of freedom is likely to overfit the training dataset and may not perform well on new data.
     - Dimensionality reduction is a data preparation technique performed on data prior to modeling. It might be performed after data cleaning and data scaling and before training a predictive model.
              
     For this project, the DataFrame was reduced to three (3) principal components using the PCA method.
@@ -50,10 +50,10 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
 3.  ***Clustering cryptocurrencies using K-means***
         
     -  Clustering is an important concept when it comes to unsupervised learning. It mainly deals with finding a structure or pattern in a collection of uncategorized data.  
-    -  K means is an iterative clustering algorithm which helps to find the highest value for every iteration. 
-    -  Initially, the desired number of clusters are selected. In this clustering method, the data points are clustered into k groups. 
-    -  Unsupervised Learning Clustering algorithms will process the data and find natural clusters(groups) if they exist in the data. The number of clusters can be defined in the  algorithms. This allows to adjust the granularity of these groups. A larger k means smaller groups with more granularity in the same way. A lower k means larger groups with less granularity.
-    -  In k-means clustering, each group is defined by creating a centroid for each group. The centroids are the center of the cluster, which captures the points closest to them and adds them to the cluster.
+    -  K-means is an iterative clustering algorithm which helps to find the highest value for every iteration. 
+    -  Initially, the desired number of clusters are selected. In this clustering method, the data points are clustered into K groups. 
+    -  Unsupervised Learning Clustering algorithms will process the data and find natural clusters(groups) if they exist in the data. The number of clusters can be defined in the  algorithms. This allows the ability to adjust the granularity of these groups. A larger K results in smaller groups with more granularity. Conversely, a lower K results in larger groups with less granularity.
+    -  In K-means clustering, each group is defined by creating a centroid for each group. The centroids are the center of the cluster, which captures the points closest to them and adds them to the cluster.
     
     To find the K-means value for the model, an elbow curve was created and a K-means algorithm was used to predict the K clusters for the cryptocurrencies’ data.
 
@@ -72,7 +72,7 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
    - To visualize the results of the model, the following figures were used:
         
         - 3-D scatter plot of the three Principal Components showing the clusters
-            - *This plot uses the three principal compenents obtained through the PCA algorithm as data*
+            - *This plot uses the three principal components obtained through the PCA algorithm as data*
             - *It clearly shows that BitTorrent is in a class by itself*
         
         <p align="center">
@@ -102,4 +102,5 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
 ## Summary 
             
    - A total of 532 cryptocurrencies have been classified into four different classes based on similarities of their features.
-   - Each class should be further analyzed to determine their returns and risks factors so that a proper portfolio can be presented to the investment bank's clients.   
+   - Of particular interest is BitTorrent          
+   - Deeper analysis is required to determine the return and risks factors for each class so that a proper portfolio can be built for the investment bank clientele.   
