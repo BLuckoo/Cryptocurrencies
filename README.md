@@ -48,11 +48,25 @@ To group the cryptocurrencies, a clustering algorithm was chosen and the finding
     </p>
         
 3.  ***Clustering cryptocurrencies using K-means***
-    - During step, an elbow curve was created to find the best value for the clustering groups and a K-means algorithm was used to predict the K clusters for the cryptocurrencies’ data. Clustering is an important concept when it comes to unsupervised learning. It mainly deals with finding a structure or pattern in a collection of uncategorized data. Unsupervised Learning Clustering algorithms will process your data and find natural clusters(groups) if they exist in the data. You can also modify how many clusters your algorithms should identify. It allows you to adjust the granularity of these groups.
+        
+    -  Clustering is an important concept when it comes to unsupervised learning. It mainly deals with finding a structure or pattern in a collection of uncategorized data.  
+    -  K means is an iterative clustering algorithm which helps to find the highest value for every iteration. 
+    -  Initially, the desired number of clusters are selected. In this clustering method, the data points are clustered into k groups. 
+    -  Unsupervised Learning Clustering algorithms will process the data and find natural clusters(groups) if they exist in the data. The number of clusters can be defined in the  algorithms. This allows to adjust the granularity of these groups. A larger k means smaller groups with more granularity in the same way. A lower k means larger groups with less granularity.
+    -  In k-means clustering, each group is defined by creating a centroid for each group. The centroids are the center of the cluster, which captures the points closest to them and adds them to the cluster.
+    
+    To find the K-means value for the model, an elbow curve was created and a K-means algorithm was used to predict the K clusters for the cryptocurrencies’ data.
 
-    -   K means it is an iterative clustering algorithm which helps you to find the highest value for every iteration. Initially, the desired number of clusters are selected. In this clustering method, you need to cluster the data points into k groups. A larger k means smaller groups with more granularity in the same way. A lower k means larger groups with less granularity.
+    <p align="center">
+    <image src="https://user-images.githubusercontent.com/82583576/131060235-451f633f-068f-4f8d-a80b-cf0e915ac6dc.png"
+    </p>       
+    
+    <p align="center">    
+    <image src="https://user-images.githubusercontent.com/82583576/131060311-3786f384-ecbc-4e4b-bdd5-66fb98ad3d94.png"
+    </p>
 
-The output of the algorithm is a group of "labels." It assigns data point to one of the k groups. In k-means clustering, each group is defined by creating a centroid for each group. The centroids are like the heart of the cluster, which captures the points closest to them and adds them to the cluster.
-
+    - From the Elbow curve, the K-value of 4 was used in the model. The optimal K-value is the x-axis value where the curve shows a "marked" tendency towards a straight line.   
+        
 4. ***Visualizing results***
-    - In this final step, three types of figures were used: a 3D scatter plot to visualize the three PCAs, a hvplot.table to visualize all the current tradable cryptocurrencies, and a 2D scatter plot to visualize "Total Coins Mined" vs. "Total Coin Supply" by coin name and clusters.
+
+   - In this final step, three types of figures were used: a 3D scatter plot to visualize the three PCAs, a hvplot.table to visualize all the current tradable cryptocurrencies, and a 2D scatter plot to visualize "Total Coins Mined" vs. "Total Coin Supply" by coin name and clusters.
