@@ -73,7 +73,7 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
         
         - 3-D scatter plot of the three Principal Components showing the clusters
             - *This plot uses the three principal components obtained through the PCA algorithm as data*
-            - *It clearly shows that BitTorrent is in a class by itself*
+            - *It clearly shows that BitTorrent is in a class by itself - it is the only one using the TRC10 algorithm and also has the highest number of coins mined*
         
         <p align="center">
         <image src="https://user-images.githubusercontent.com/82583576/131062257-b8ecfe1c-2640-4ce0-817a-825d949e6242.png"
