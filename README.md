@@ -69,4 +69,12 @@ To group the cryptocurrencies, a clustering algorithm was chosen and the finding
         
 4. ***Visualizing results***
 
-   - In this final step, three types of figures were used: a 3D scatter plot to visualize the three PCAs, a hvplot.table to visualize all the current tradable cryptocurrencies, and a 2D scatter plot to visualize "Total Coins Mined" vs. "Total Coin Supply" by coin name and clusters.
+   - To visualize the results of the model, the following figures were used:
+        
+    a.  A 3-D scatter plot of the three Principal Components showing the clusters
+        
+        <p align="center">
+        <image src="https://user-images.githubusercontent.com/82583576/131061217-0bcd7466-e687-4cc8-aa1d-5da1a3521ea1.png"
+        </p>
+                    
+        In this final step, three types of figures were used: a 3D scatter plot to visualize the three PCAs, a hvplot.table to visualize all the current tradable cryptocurrencies, and a 2D scatter plot to visualize "Total Coins Mined" vs. "Total Coin Supply" by coin name and clusters.
