@@ -102,5 +102,5 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
 ## Summary 
             
    - A total of 532 cryptocurrencies have been classified into four different classes based on similarities of their features.
-   - Of particular interest is BitTorrent          
+   - Of particular interest is BitTorrent - it is in a class by itself based on its features such as the only cryptocurrency using the TRC10 algorithm and a very high number of coins mined. Further investigation is required to determine the validity of the data related to BitTorrent.          
    - Deeper analysis is required to determine the return and risks factors for each class so that a proper portfolio can be built for the investment bank clientele.   
