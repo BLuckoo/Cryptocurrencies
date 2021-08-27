@@ -102,4 +102,4 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
 ## Summary 
             
    - A total of 532 cryptocurrencies have been classified into four different classes based on similarities of their features.
-   - Each class should be further analyzed to determine their returns and risks factors so that a proper portfolio can be presented to the invetment bank's clients.   
+   - Each class should be further analyzed to determine their returns and risks factors so that a proper portfolio can be presented to the investment bank's clients.   
