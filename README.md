@@ -74,7 +74,7 @@ To group the cryptocurrencies, a clustering algorithm was chosen and the finding
         - 3-D scatter plot of the three Principal Components showing the clusters
         
         <p align="center">
-        <image src="https://user-images.githubusercontent.com/82583576/131061217-0bcd7466-e687-4cc8-aa1d-5da1a3521ea1.png"
+        <image src="https://user-images.githubusercontent.com/82583576/131062257-b8ecfe1c-2640-4ce0-817a-825d949e6242.png"
         </p>
              
         - A hvplot.table to visualize all the current tradable cryptocurrencies.
