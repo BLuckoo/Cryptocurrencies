@@ -6,15 +6,15 @@ This project uses machine learning to identify which cryptocurrencies are on the
 
 Unsupervised machine learning algorithms are used as there is no known output. In unsupervised machine learning technique in which the users do not need to supervise the model. Instead, it allows the model to work on its own to discover patterns and information that was previously undetected. 
 
-To group the cryptocurrencies, a clustering algorithm was chosen and the findings will be presented through data visualizations. 
+To group the cryptocurrencies, a clustering algorithm was selected and the findings will be presented through data visualizations. 
 
 ## Summary of Analysis
 
-**The technical analysis to produce the visualizations are as folows:**
+**The technical analysis to produce the visualizations are as follows:**
 
 1.  ***Preprocessing the Data***: 
     
-    -  Prior to analysing the data and creating models, the dataset needs to be prepared to enhance the quality of data to promote the extraxtion of meaningful insights.
+    -  Prior to analysing the data and creating models, the dataset needs to be prepared to enhance the quality of data to promote the extraction of meaningful insights.
     -  Data preprocessing refers to the technique of cleaning and organizing the raw data to make it suitable for building and training Machine Learning models. 
     -  It is a data mining technique that transforms raw data into an understandable and readable format. 
     
@@ -35,7 +35,7 @@ To group the cryptocurrencies, a clustering algorithm was chosen and the finding
                  
       
         
-2.  ***Reducing data dimensions using Principal Compenents Analysis (PCA)***
+2.  ***Reducing data dimensions using Principal Components Analysis (PCA)***
         
     - Dimensionality reduction refers to techniques for reducing the number of input variables in training data.
     - Fewer input dimensions often means correspondingly fewer parameters or a simpler structure in the machine learning model, referred to as degrees of freedom. A model with too many degrees of freedom is likely to overfit the training dataset and may not perform well on new data.
