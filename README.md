@@ -83,8 +83,9 @@ To group the cryptocurrencies, a clustering algorithm was chosen and the finding
         <image src="https://user-images.githubusercontent.com/82583576/131061791-66cc9c72-8088-41d8-b621-b72084466d3c.png"
         </p>
               
-      
-    
-            
-            
+                  
         - A 2D scatter plot to visualize "Total Coins Mined" vs. "Total Coin Supply" by coin name and clusters.
+            
+        <p align="center">
+        <image src="https://user-images.githubusercontent.com/82583576/131061989-b5bbbe56-45d1-4b50-8bd7-f68faf43bc97.png"
+        </p>
