@@ -72,11 +72,14 @@ To group the cryptocurrencies, a clustering algorithm was selected and the findi
    - To visualize the results of the model, the following figures were used:
         
         - 3-D scatter plot of the three Principal Components showing the clusters
+            - *This plot uses the three principal compenents obtained through the PCA algorithm as data*
+            - *It clearly shows that BitTorrent is in a class by itself*
         
         <p align="center">
         <image src="https://user-images.githubusercontent.com/82583576/131062257-b8ecfe1c-2640-4ce0-817a-825d949e6242.png"
         </p>
-             
+ ##
+ ##     
         - A hvplot.table to visualize all the current tradable cryptocurrencies.
             
         <p slign="center">
